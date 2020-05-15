@@ -31,8 +31,8 @@ exports.up = function (knex) {
             tbl.boolean('task_completed').defaultTo(false).notNullable();
         })
         .createTable('project_resources', tbl => {
-            // tbl.increments();
-            tbl.primary(['project_id', 'resource_id']);
+            tbl.increments();
+            // tbl.primary(['project_id', 'resource_id']);
             tbl
                 .integer('project_id')
                 .unsigned()
@@ -51,8 +51,8 @@ exports.up = function (knex) {
                 .onDelete('CASCADE');
         })
         .createTable('task_context', tbl => {
-            // tbl.increments();
-            tbl.primary(['task_id', 'context_id']);
+            tbl.increments();
+            // tbl.primary(['task_id', 'context_id']);
             tbl
                 .integer('task_id')
                 .unsigned()
