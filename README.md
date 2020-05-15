@@ -21,7 +21,7 @@ Follow these steps to set up and work on your project:
 - [x] Clone your forked version of the Repository.
 - [x] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
 - [x] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `firstName-lastName`.
+- [x] Push commits: git push origin `firstName-lastName`.
 
 Follow these steps for completing your project.
 
@@ -38,13 +38,22 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain the difference between `Relational Databases` and `SQL`.
+- [x] Explain the difference between `Relational Databases` and `SQL`.
 
-- [ ] Why do tables need a `primary key`?
+      A relational database is a database where that data is stored in tables. Each table is made up of rows and columns (like a spreadsheet). SQL is a language used to manage databases and the data inside them. It is how we interact with our relational databases, but it itself is not a database. 
 
-- [ ] What is the name given to a table column that references the primary key on another table.
 
-- [ ] What do we need in order to have a _many to many_ relationship between two tables.
+- [x] Why do tables need a `primary key`?
+
+      Tables need a primary key in order to ensure that each row has a unique and unchanging identifier that is used as a reference for the data in the row. 
+
+- [x] What is the name given to a table column that references the primary key on another table.
+
+      Foreign Key
+
+- [x] What do we need in order to have a _many to many_ relationship between two tables.
+
+      With many-to-many relationships, it is best to use an intermediary table to relate the two tables.
 
 ## Minimum Viable Product
 
