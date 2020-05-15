@@ -74,13 +74,13 @@ Complete the following tasks:
   - [x] when adding a `task` the client must provide the `id` of an existing project.
   - [x] for `projects` and `tasks` if no value is provided for the `completed` property, the API should provide a default value of `false`.
 
-- [ ] Build an API with endpoints for:
-  - [ ] adding resources.
-  - [ ] retrieving a list of resources.
-  - [ ] adding projects.
-  - [ ] retrieving a list of projects.
+- [x] Build an API with endpoints for:
+  - [x] adding resources.
+  - [x] retrieving a list of resources.
+  - [x] adding projects.
+  - [x] retrieving a list of projects.
   - [ ] adding tasks.
-  - [ ] retrieving a list of tasks. **The list of tasks should include the project name and project description**.
+  - [x] retrieving a list of tasks. **The list of tasks should include the project name and project description**.
 
 ### Entities
 
@@ -153,7 +153,7 @@ This section is **optional** and not counted towards MVP. Start working on it af
 
   - [x] Add support for the concept of `contexts`. A context is something like _at home_, _at work_ or _at computer_. The idea is that some tasks require one or more `contexts` in order to be worked on. For example, the task of _file income taxes_ may require that you are _at home_, _at computer_ and _online_ so if you are _at work_ and look at the list of pending tasks you could do in your current context, filing your taxes will not be one of them.
 
-  A `context` can be applied to more than one `task`. An task can be tied to more than one context, like in the example above.
+    A `context` can be applied to more than one `task`. An task can be tied to more than one context, like in the example above.
 
   - [ ] When retrieving an `task` by _id_, add a property that lists all the `contexts` related to that task.
 
